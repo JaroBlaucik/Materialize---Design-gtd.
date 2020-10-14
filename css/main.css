@@ -1,0 +1,46 @@
+.logo {
+    height: 40px;
+}
+.row {
+    height: 100%;
+    margin: 0;
+}
+.header {
+    position: relative;
+}
+.hero {
+    width: 100%;
+}
+h1 {
+    position: fixed;
+}
+
+.face_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: -100px;
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #ffd600;
+    font-weight: 700;
+}
+.page-footer {
+    height: 300px;
+    border-top: 10px solid gold; 
+    margin-top: 100px;
+}
+@media (max-width: 892px){
+    .face_box {
+        justify-content: center;
+        align-items: center;
+        top: -73px;
+    }
+    .faces {
+        width: 130px;
+        height: 130px;
+    }
+}
